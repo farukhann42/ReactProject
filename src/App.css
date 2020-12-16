@@ -1,0 +1,45 @@
+body{
+    margin-top:20px;
+    background:#eee;
+}
+/* home tsx card css */
+.card-size{
+    width: 18rem;
+    text-align: center;
+}
+
+/* UserDetails tsx info text size css*/
+.user-info{
+    font-size: xx-large;
+    margin-top: 3em;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none !important;
+}
+
+/* Modal Css */
+.modal-backdrop{
+    background: rgba(0,0,0,0.4) !important;
+}
+
+.modal-dialog{
+    max-width: 50% !important;
+}
+
+/* Media query css */
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .modal-dialog{
+        max-width: 75% !important;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .modal-dialog{
+        max-width: 90% !important;
+    }
+}
